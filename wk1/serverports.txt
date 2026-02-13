@@ -1,0 +1,25 @@
+What is the definition of server port:
+A server port is a numbered communication endpoint on a host that is used by transport protocols (TCP / UDP)
+
+Server port range:
+
+0-65535
+Ports are grouped as:
+Well-known: 0-1023
+Registered: 1024-49151
+Dynamic: 49152-65535
+
+What do they represent:
+The max port number is 65535 because that is 16 bits, (2^16 = 65536 values)
+
+10 Common sever ports:
+20 - ftp data
+21- ftp control
+22 -SSH
+23 - Telnet
+25 - SMTP
+53 - DNS
+80 - HTTP
+110 - POP3
+143 - IMAP
+443 - HTTPS
