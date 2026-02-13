@@ -1,0 +1,47 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-13 06:01 UTC
+Nmap scan report for google.com (142.250.139.113)
+Host is up (0.0032s latency).
+Other addresses for google.com (not scanned): 142.250.139.100 142.250.139.102 142.250.139.138 142.250.139.139 142.250.139.101 2607:f8b0:4023:1804::66 2607:f8b0:4023:1804::8b 2607:f8b0:4023:1804::64 2607:f8b0:4023:1804::8a
+rDNS record for 142.250.139.113: lcyyzb-in-f113.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.62 seconds
+
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap -p 84 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-13 06:02 UTC
+Nmap scan report for google.com (142.250.139.100)
+Host is up (0.0029s latency).
+Other addresses for google.com (not scanned): 142.250.139.101 142.250.139.138 142.250.139.113 142.250.139.139 142.250.139.102 2607:f8b0:4023:1804::8b 2607:f8b0:4023:1804::64 2607:f8b0:4023:1804::8a 2607:f8b0:4023:1804::66
+rDNS record for 142.250.139.100: lcyyzb-in-f100.1e100.net
+
+PORT   STATE    SERVICE
+84/tcp filtered ctf
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap -p 86-178 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-13 06:02 UTC
+Nmap scan report for google.com (142.250.139.101)
+Host is up (0.0030s latency).
+Other addresses for google.com (not scanned): 142.250.139.113 142.250.139.139 142.250.139.138 142.250.139.100 142.250.139.102 2607:f8b0:4023:1804::8a 2607:f8b0:4023:1804::8b 2607:f8b0:4023:1804::66 2607:f8b0:4023:1804::64
+rDNS record for 142.250.139.101: lcyyzb-in-f101.1e100.net
+All 93 scanned ports on google.com (142.250.139.101) are in ignored states.
+Not shown: 93 filtered tcp ports (no-response)
+
+Nmap done: 1 IP address (1 host up) scanned in 3.07 seconds
+
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap -f google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-13 06:03 UTC
+Nmap scan report for google.com (142.250.139.139)
+Host is up (0.0032s latency).
+Other addresses for google.com (not scanned): 142.250.139.138 142.250.139.100 142.250.139.102 142.250.139.113 142.250.139.101 2607:f8b0:4023:1804::8a 2607:f8b0:4023:1804::8b 2607:f8b0:4023:1804::66 2607:f8b0:4023:1804::64
+rDNS record for 142.250.139.139: lcyyzb-in-f139.1e100.net
+All 1000 scanned ports on google.com (142.250.139.139) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap done: 1 IP address (1 host up) scanned in 21.12 seconds
+

@@ -1,0 +1,19 @@
+hltv.org:
+IPv4 address
+104.18.41.212
+172.64.146.44	
+
+vlr.gg:
+172.104.213.34
+
+walmart.ca
+23.220.113.58
+
+Freshco.com
+IPv4 address
+13.107.213.35
+13.107.246.35	
+
+Mcdonalds.com
+IPv4 address
+44.208.147.61

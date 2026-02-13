@@ -1,0 +1,4 @@
+PING 13.107.213.35 (13.107.213.35) 56(84) bytes of data.
+^C
+--- 13.107.213.35 ping statistics ---
+59 packets transmitted, 0 received, 100% packet loss, time 59397ms

@@ -1,0 +1,21 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# ping 172.104.213.34 -w 15
+PING 172.104.213.34 (172.104.213.34) 56(84) bytes of data.
+64 bytes from 172.104.213.34: icmp_seq=1 ttl=50 time=58.1 ms
+64 bytes from 172.104.213.34: icmp_seq=2 ttl=50 time=57.2 ms
+64 bytes from 172.104.213.34: icmp_seq=3 ttl=50 time=57.2 ms
+64 bytes from 172.104.213.34: icmp_seq=4 ttl=50 time=57.2 ms
+64 bytes from 172.104.213.34: icmp_seq=5 ttl=50 time=57.2 ms
+64 bytes from 172.104.213.34: icmp_seq=6 ttl=50 time=57.2 ms
+64 bytes from 172.104.213.34: icmp_seq=7 ttl=50 time=57.1 ms
+64 bytes from 172.104.213.34: icmp_seq=8 ttl=50 time=57.2 ms
+64 bytes from 172.104.213.34: icmp_seq=9 ttl=50 time=57.3 ms
+64 bytes from 172.104.213.34: icmp_seq=10 ttl=50 time=57.3 ms
+64 bytes from 172.104.213.34: icmp_seq=11 ttl=50 time=57.2 ms
+64 bytes from 172.104.213.34: icmp_seq=12 ttl=50 time=57.4 ms
+64 bytes from 172.104.213.34: icmp_seq=13 ttl=50 time=57.3 ms
+64 bytes from 172.104.213.34: icmp_seq=14 ttl=50 time=57.4 ms
+64 bytes from 172.104.213.34: icmp_seq=15 ttl=50 time=57.3 ms
+
+--- 172.104.213.34 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14017ms
+rtt min/avg/max/mdev = 57.146/57.303/58.072/0.219 ms
