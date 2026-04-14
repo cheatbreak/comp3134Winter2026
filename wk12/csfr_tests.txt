@@ -1,0 +1,5 @@
+When using csfr_form.php, the request succeeds because the hidden confirmation token matches the session value.
+
+When using the forged HTML page without the correct token, the request is blocked.
+
+This shows that adding a session-based confirmation token helps prevent forged cross-site request forgery submissions.

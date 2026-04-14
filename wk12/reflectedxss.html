@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflected XSS Demo</title>
+</head>
+<body>
+    <h1>Reflected XSS Demo</h1>
+
+    <form id="xssForm">
+        <input type="text" id="userInput" placeholder="Enter text">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+        const form = document.getElementById("xssForm");
+        const input = document.getElementById("userInput");
+        const output = document.getElementById("output");
+
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+            output.innerHTML = input.value;
+        });
+    </script>
+</body>
+</html>

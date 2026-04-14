@@ -1,0 +1,11 @@
+The problem is that the application outputs stored content directly from a file without sanitizing or escaping it.
+
+Because the file contains JavaScript, the browser executes that script when storexss.php is opened.
+
+This is a stored XSS vulnerability because the malicious payload is saved in storage first, then executed later when the page is viewed.
+
+Possible impacts:
+- forced redirects
+- session theft
+- cookie theft
+- malicious actions in the user's browser
