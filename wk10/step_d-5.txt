@@ -1,0 +1,6 @@
+The encoded traversal also works because the input is not sanitized or restricted.
+
+Sensitive information exposed:
+- Parent directory names
+- Filesystem structure outside the web root
+- Proof that encoded traversal is possible

@@ -1,0 +1,6 @@
+When q=hello is used, the page shows an error because the folder does not exist and there is no validation before scandir() runs.
+
+Sensitive information exposed:
+- Internal server file/folder names
+- Error messages
+- Possible filesystem structure

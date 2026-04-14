@@ -1,0 +1,4 @@
+Mitigation:
+1. Use basename() so the user cannot traverse outside the html directory.
+2. Use file_exists() and is_dir() so the script does not try to scan a missing folder.
+3. Bonus: block filenames by rejecting dots in user input except for the default "." value.

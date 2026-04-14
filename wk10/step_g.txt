@@ -1,0 +1,3 @@
+Mitigation:
+HTML comments can be viewed in browser source and may expose developer information or internal notes.
+To fix this, replace HTML comments with PHP comments so they stay on the server and are not visible to the browser.
